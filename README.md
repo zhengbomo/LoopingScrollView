@@ -1,5 +1,9 @@
 # LoopingScrollView
-Looping AD ScrollView
+Looping AD ScrollView, recycling used and looping three UIImageViews for several images
+
+## Example
+![](example1.png)
+
 
 ## Requirements
 
