@@ -10,8 +10,8 @@ Looping AD ScrollView
 
 ## Config
   AdviewTimerInterval: Time Interval to go to next page;
-  pageControlIndicatorTintColor
-  pageControlcurrentIndicatorTintColor
+  pageControlIndicatorTintColor;
+  pageControlcurrentIndicatorTintColor;
 
 ##Usage
 ============
@@ -49,11 +49,6 @@ Looping AD ScrollView
 - (UIImage *)imageFromItem:(NSDictionary *)item
 {
     return [item valueForKey:@"image"];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 ```
