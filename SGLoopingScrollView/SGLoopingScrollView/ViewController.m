@@ -19,7 +19,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [self loadAdView];
+}
+
+- (void)loadAdView
+{
     NSMutableArray *imgArr = [NSMutableArray array];
     for (int i = 1; i <= 7; i++) {
         NSMutableDictionary *dict = [NSMutableDictionary dictionary];
@@ -40,8 +44,6 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(60, 300, 200, 200)];
     self.imageView = imageView;
     [self.view addSubview:imageView];
-    
-    
 }
 
 #pragma mark - LoopScrollViewDelegate
@@ -54,8 +56,6 @@
 {
     return [item valueForKey:@"image"];
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

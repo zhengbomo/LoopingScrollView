@@ -9,10 +9,12 @@
 
 #import "SGLoopingScrollView.h"
 #define AdviewTimerInterval 2
+#define PageControlIndicatorTintColor [UIColor grayColor]
+#define PageControlcurrentIndicatorTintColor [UIColor redColor]
 
 @interface SGLoopingScrollView ()
 {
-    int _currentIndex;
+    NSInteger _currentIndex;
     NSTimer *_timer;
 }
 
@@ -62,8 +64,8 @@
         
         
         UIPageControl *pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, frame.size.height - 36, frame.size.width, 36)];
-        pageControl.pageIndicatorTintColor = [UIColor grayColor];
-        pageControl.currentPageIndicatorTintColor = [UIColor redColor];
+        pageControl.pageIndicatorTintColor = PageControlIndicatorTintColor;
+        pageControl.currentPageIndicatorTintColor = PageControlcurrentIndicatorTintColor;
         [self.pageControl setHidden:YES];
         self.pageControl = pageControl;
         
