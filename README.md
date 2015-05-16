@@ -9,9 +9,9 @@ Looping AD ScrollView
 * 
 
 ## Config
-  AdviewTimerInterval: Time Interval to go to next page;
-  pageControlIndicatorTintColor;
-  pageControlcurrentIndicatorTintColor;
+*  AdviewTimerInterval: Time Interval to go to next page;
+*  pageIndicatorTintColor;
+*  currentPageIndicatorTintColor;
 
 ##Usage
 ============
