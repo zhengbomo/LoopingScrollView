@@ -21,7 +21,7 @@
     [super viewDidLoad];
     
     NSMutableArray *imgArr = [NSMutableArray array];
-    for (int i = 1; i <= 1; i++) {
+    for (int i = 1; i <= 7; i++) {
         NSMutableDictionary *dict = [NSMutableDictionary dictionary];
         NSString *key = [NSString stringWithFormat:@"%d.png", i];
         [dict setValue:key forKey:@"imageName"];
