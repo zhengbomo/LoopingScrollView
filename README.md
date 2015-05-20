@@ -1,7 +1,7 @@
 # LoopingScrollView
 Looping AD ScrollView, recycling used and looping three UIImageViews for several images
 
-## Example
+## Screenshot
 ![](example1.png)
 
 
@@ -10,7 +10,6 @@ Looping AD ScrollView, recycling used and looping three UIImageViews for several
 * Xcode 6
 * iOS 5.0+
 * ARC
-* 
 
 ## Config
 *  AdviewTimerInterval: Time Interval to go to next page;
